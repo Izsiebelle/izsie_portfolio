@@ -46,6 +46,7 @@
 .button.secondary-button {
     background: white;
     background-clip: padding-box;
+    color: var(--primary-color);
     transition: all 0.6s ease;
 }
 
@@ -58,4 +59,21 @@
 p.para {
     color: var(--text-color);
     font: normal 500 16px/25px var(--monsterrat);
+}
+
+.font-monsterrat{
+    font-family: var(--monsterrat);
+}
+
+button:focus,
+button:active,
+button:hover,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+
+.title-h1 {
+    font: normal bold 39px/40px var(--monsterrat);
 }

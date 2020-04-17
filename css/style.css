@@ -97,3 +97,57 @@
 }
 
 /* End about area */
+
+/* What i do area */
+
+.site-main .whatido {
+    padding: 7rem 2rem;
+}
+
+.site-main .whatido-area .whatido-title{
+    padding: 0 14rem;
+}
+
+.site-main.whatido-area .whatido-title h1{
+    font-size: 31px;
+}
+
+.whatido-area .whatido {
+    background: #FFECE3;
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.whatido-area .whatido:hover {
+    box-shadow: var(--box-shadow);
+}
+
+/* end of what i do area */
+
+/* Portfolio Area */
+
+.project-area {
+    padding: 4rem 0; 
+}
+
+.project-area .button-group button {
+    background: transparent; 
+    border: none;
+    font: normal 500 16px/130px var(--monsterrat);
+    text-transform: uppercase;
+}
+
+.project-area .button-group button + button {
+    padding-left: 3rem;
+}
+
+.title h4 {
+    font: normal 700 25px/24px var(--monsterrat);
+}
+
+.our-project .img:hover img{
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #d3d3d3);
+}
+/* end of portfolio area */
