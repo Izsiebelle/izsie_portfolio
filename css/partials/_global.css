@@ -1,14 +1,14 @@
 /* global css */
-.title-text {
+/* .title-text {
     font: normal bold 50px/72px var(--monsterrat);
 }
 
 .text-uppercase {
     text-transform: uppercase;
-}
+} */
 
 /* buttons */
-
+/* 
 .button {
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px var(--monsterrat);
@@ -88,4 +88,4 @@ button:hover,
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background-color 1s ease;
-}
+} */
