@@ -1,0 +1,45 @@
+/* meidaquery for 340px or less */
+@media only screen and (max-width: 600px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 2%;
+        margin: 0;
+    }
+
+    .site-title h1 {
+        font-size: 41px;
+    } 
+
+    .about-area {
+        padding: 2rem 4rem;
+    }
+   
+    .about-title h2  {
+        display: block;
+        font: normal bold 30px/35px var(--monsterrat);
+        letter-spacing: 16px; 
+        padding: 0.5rem 1rem 0.5rem 0;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .site-main .site-banner .site-title h3 {
+        padding-top: 15%;
+        font-weight: 400;
+    }
+
+    .site-main .whatido-area .whatido-title{
+        padding: 4rem 3rem 0 3rem;
+    }
+    
+    .title-text {
+        font: normal bold 40px/62px var(--monsterrat);
+    }
+
+    .site-main .whatido {
+        padding: 0;
+        margin: 3rem;
+    }
+}

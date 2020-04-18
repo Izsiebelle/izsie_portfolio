@@ -14,4 +14,24 @@ $(document).ready(function(){
     })
 
     $('.button-group #btn-all').trigger('click');
-})
+
+    // stick nav bar
+
+    let header_height = $('.header_area').height() + 50;
+
+    function stickyNav() {
+        if($('.header_area').length){
+            $(window).scroll(function() {
+                let scroll = $(window).scrollTop();
+                if(scroll >= header_height){
+                    $('.main-menu').addClass('navbar-fixed');
+                }else{
+                    $('.main-menu').removeClass('navbar-fixed');
+                }
+            })
+        }
+    }
+
+    stickyNav();
+
+});

@@ -77,3 +77,15 @@ button:hover,
 .title-h1 {
     font: normal bold 39px/40px var(--monsterrat);
 }
+
+.navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top:-1;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background-color 1s ease;
+}

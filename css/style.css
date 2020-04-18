@@ -86,7 +86,7 @@
     padding: 8rem 5rem;
 }
 
-.about-title h2 > span {
+.about-title h2 {
     display: block;
     font: normal bold 49px/60px var(--monsterrat);
     letter-spacing: 21px; 
@@ -94,6 +94,10 @@
 
 .about-title .paragraph > p {
     padding: .4rem 0;
+}
+
+.paragraph {
+    width: 75%;
 }
 
 /* End about area */
@@ -151,3 +155,26 @@
     filter: brightness(1.1)drop-shadow(1px 8px 30px #d3d3d3);
 }
 /* end of portfolio area */
+
+/* footer area */
+
+footer.footer-area {
+    padding: 2rem 0; 
+    background: url(../images/banner/home-banner2.jpg)no-repeat 0% 100%;
+}
+
+footer.footer-area .social h5 {
+    font: normal 600 23px/30px var(--monsterrat);
+    color: var(--primary-color2);
+}
+
+.social a > i {
+    font-size: 22px;
+    padding: 2rem;
+    color: var(--primary-color);
+}
+
+.social a > i:hover {
+    color: var(--icon-color);
+}
+/* end footer area */
